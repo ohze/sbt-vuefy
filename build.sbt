@@ -4,8 +4,8 @@ scalaVersion := "2.12.6"
 
 libraryDependencies ++= Seq(
   "com.typesafe.play" %% "play-json" % "2.6.9",
-  "org.mockito" % "mockito-core" % "2.18.3" % Test,
-  "com.lihaoyi" %% "utest" % "0.6.3" % Test
+  "org.mockito" % "mockito-core" % "2.19.1" % Test,
+  "com.lihaoyi" %% "utest" % "0.6.4" % Test
 )
 
 organization := "givers.vuefy"

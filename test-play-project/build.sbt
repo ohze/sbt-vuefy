@@ -1,4 +1,4 @@
-name := """test-play-project"""
+name := "test-play-project"
 organization := "givers.vuefy"
 
 version := "1.0-SNAPSHOT"
