@@ -14,3 +14,5 @@ libraryDependencies ++= Seq(
 Assets / VueKeys.vuefy / VueKeys.prodCommands := Set("stage")
 Assets / VueKeys.vuefy / VueKeys.webpackBinary := "./node_modules/.bin/webpack"
 Assets / VueKeys.vuefy / VueKeys.webpackConfig := "./webpack.config.js"
+
+coursierParallelDownloads := 12
